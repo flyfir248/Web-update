@@ -1,0 +1,592 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+
+<title>PythonPythonME</title>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<meta content="Python,Programming" name="keywords" />
+<meta content="Learn Python Programming" name="description" />
+<meta name="generator" content="thesitewizard.com's Layout Wizard 3.0.1" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="stylesheet" type="text/css" media="all" href="styles.css" />
+
+<style type="text/css">
+.auto-style1 {
+	text-align: center;
+}
+.auto-style2 {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	text-align: center;
+}
+.auto-style3 {
+	font-family: "Times New Roman", Times, serif;
+	text-align: center;
+	font-size: x-large;
+}
+.auto-style6 {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	text-align: center;
+	font-size: large;
+}
+.auto-style4 {
+	font-family: "Times New Roman", Times, serif;
+	font-size: large;
+}
+.auto-style12 {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	text-align: center;
+	font-size: large;
+	color: #1829BB;
+}
+.auto-style24 {
+	font-size: xx-large;
+}
+.auto-style29 {
+	font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+	text-align: left;
+}
+.auto-style33 {
+	border-style: solid;
+	border-width: 1px;
+	padding-top: 1px;
+	padding-bottom: 1px;
+}
+.auto-style34 {
+	border-width: 0px;
+}
+.auto-style35 {
+	font-family: "Times New Roman", Times, serif;
+}
+.auto-style36 {
+	background-color: #FFFB00;
+}
+.auto-style37 {
+	font-family: "Times New Roman", Times, serif;
+	text-align: left;
+}
+.auto-style38 {
+	font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+	text-align: center;
+}
+.auto-style39 {
+	font-size: large;
+}
+.auto-style40 {
+	font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+	text-align: center;
+	font-size: large;
+}
+.auto-style41 {
+	font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+	text-align: left;
+	font-size: large;
+}
+.auto-style42 {
+	text-align: left;
+}
+.auto-style43 {
+	font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.auto-style44 {
+	font-family: "Cascadia Mono SemiBold";
+	font-size: xx-large;
+	text-align: center;
+}
+.auto-style45 {
+	font-family: "Times New Roman", Times, serif;
+	color: rgb(35,31,32);
+}
+.auto-style46 {
+	text-decoration: underline;
+}
+.auto-style48 {
+	font-family: "Times New Roman", Times, serif;
+	text-decoration: underline;
+	font-size: x-large;
+}
+.auto-style49 {
+	background-color: #00FF12;
+}
+.auto-style50 {
+	text-decoration: underline;
+	background-color: #00FF12;
+}
+.auto-style51 {
+	font-family: Georgia, "Times New Roman", Times, serif;
+}
+.auto-style52 {
+	font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+	text-align: center;
+}
+</style>
+
+</head>
+
+<body>
+
+<div id="tswcontainer">
+	<div id="tswheader">
+	<!-- start of header section: insert your logo, etc, here -->
+
+	<p class="auto-style1">
+	<a href="index.html">
+	<img alt="Logo" src="PythonPythonME.png" style="border-radius: 5px; width: 306px; height: 234px; background-color: #FFFFFF;" class="auto-style34" /></a></p>
+	<p class="auto-style3"><span lang="en-in"><strong>Tuples and Sets</strong></span></p>
+
+	<!-- end of header section: insert your logo, etc, above this line -->
+	</div>
+
+	<div id="tswcontent">
+	<div id="tswcontproper">
+	<!-- start of content column: insert your content here -->
+
+		<p class="auto-style35">Sequence data types include
+		<span class="auto-style36">list, tuple, and range </span>(see Sequence 
+		Types — list, tuple, range). </p>
+		<p class="auto-style35">Other sequence data types may be added in the 
+		future because Python is a developing language.</p>
+		<p class="auto-style35">A <strong><span class="auto-style49">tuple</span></strong> is a collection of ordered objects with 
+		the property of being unmodifiable once created. It's for this reason 
+		that they're referred to as <strong>"immutable lists"</strong><span lang="en-in">.</span></p>
+		<p class="auto-style35">There are two types of Python objects: changeable and immutable. </p>
+		<p class="auto-style35">Immutable objects, as their name implies, can't 
+		be changed after they've been created. </p>
+		<p class="auto-style35">Because the members of a tuple are surrounded 
+		between parentheses rather than square brackets, you can quickly 
+		distinguish it from a list:</p>
+		<span lang="en-in">
+		<p class="auto-style37">
+		
+		A tuple is a collection of values separated by commas, such as:</p>
+		<p class="auto-style29">
+		
+		<iframe src="https://trinket.io/embed/python/5167e535b0?start=result" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+		&nbsp;</p>
+		<p class="auto-style29">
+		
+		One can also nest tuples.</p>
+		<p class="auto-style29">
+		
+		One way to do this is listed below.</p>
+		<p class="auto-style29">
+		
+		<iframe src="https://trinket.io/embed/python/79b600409d?start=result" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+		&nbsp;</p>
+		<p class="auto-style29">
+		
+		Tuples are immutable, this can be seen from the below example :</p>
+		<p class="auto-style29">
+		
+		<iframe src="https://trinket.io/embed/python/1e9b7a8e91?start=result" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+		&nbsp;</p>
+		<p class="auto-style29">
+		
+		You will get this error :</p>
+		<p class="auto-style38">
+		
+		<span class="auto-style39" style="color: rgb(0, 0, 0); font-family: Merriweather, Times, Georgia, serif; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 204, 204); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;">
+		TypeError: 'tuple' does not support item assignment on line 10 in 
+		main.py</span></p>
+		<p class="auto-style29">
+		
+		But you can store mutable types :</p>
+		<p class="auto-style40">
+		
+		Variable=([1,2,3,4,5],[6,7,8,9,10])</p>
+		<p class="auto-style29">
+		
+		<span lang="en-in">It is not feasible to assign to individual items in a 
+		tuple, however tuples containing mutable objects, such as lists, can be 
+		created.</span></p>
+		<p class="auto-style29">
+		
+		Tuples are immutable, and they often contain a heterogeneous sequence of 
+		components that can be accessed using unpacking or indexing. </p>
+		<p class="auto-style29">
+		
+		Lists are mutable, and their elements are usually homogeneous, and they 
+		can be accessed by iterating across them.</p>
+		<p class="auto-style41">
+		
+		<iframe src="https://trinket.io/embed/python/a676f6ae5f?start=result" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+		&nbsp;</p>
+		</span>
+		<p class="auto-style29">
+		
+		As<span lang="en-in"> demonstrated </span>tuples are always wrapped in 
+		parenthesis<span lang="en-in">. Here the </span>output to ensure that nested tuples 
+		are correctly read<span lang="en-in">.</span></p>
+		<p class="auto-style42">
+		
+		<span class="auto-style43" style="color: rgb(34, 34, 34); font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;">
+		<strong>Empty tuples</strong></span></p>
+		<p class="auto-style42">
+		
+		<span lang="en-in" class="auto-style35">An empty pair of parentheses 
+		constructs an empty tuple.</span></p>
+		<p class="auto-style42">
+		
+		<span lang="en-in" class="auto-style35">Here only a tuple with one item 
+		is produced by following a value with a comma (it is efficient to 
+		enclose a single value in parentheses).</span></p>
+		<div class="auto-style45" style="mso-spacerun: 'yes';">
+			With the <span class="auto-style46"><strong><em>trailing comma and 
+			parentheses</em></strong></span> the Python interpreter can tell 
+			that it is a tuple and not an expression. You are not allowed to add 
+			or to remove elements from a tuple:</div>
+		<p class="auto-style42">
+		
+		<iframe src="https://trinket.io/embed/python/20b0ba110e?start=result" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+		&nbsp;</p>
+		<p class="auto-style42">
+		
+		<span lang="en-in" class="auto-style43"><strong>Tuple packing</strong></span></p>
+		<p class="auto-style37">
+		
+		<span lang="en-in">Below example demonstrates tuple packing, here t<span lang="en-in" class="auto-style35">hese values are packed together 
+		in a tuple. whilst the use of x,y,z variable demonstrates the case of 
+		unpacking.</span></span></p>
+		<p class="auto-style37">
+		
+		<iframe src="https://trinket.io/embed/python/0fc68f63ff?start=result" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+		&nbsp;</p>
+		<p class="auto-style42">
+		
+		<span class="auto-style35"><span lang="en-in">The variables on the right 
+		side cause s</span>equence unpacking. 
+		</span> </p>
+		<div>
+			<span class="auto-style35" style="mso-spacerun: 'yes'; font-family: SFRM1000; color: rgb(35,31,32);">
+			The number of elements for each tuple does not change (since there 
+			are always three coordinates), and each position is important since 
+			each point corresponds to a specifific axis</span><span lang="en-in" style="mso-spacerun: 'yes'; font-size: 10.959pt; font-family: SFRM1000; color: rgb(35,31,32)">.</span></div>
+		<span class="auto-style35">
+		<p class="auto-style42">
+		
+		When unpacking a sequence, the number of variables on the left side of 
+		the equals sign must equal the number of elements in the series. </p>
+		<p class="auto-style42">
+		
+		Multiple assignment is nothing more than a combination of tuple packing 
+		and sequence unpacking.</p>
+		</span>
+		<p class="auto-style42">
+		
+		<span class="auto-style43" lang="en-in"><strong>Adding elements to 
+		tuple:</strong></span></p>
+		<div class="auto-style45" style="mso-spacerun: 'yes';">
+			You are not allowed to add or to remove elements from a tuple<span lang="en-in">, 
+			the below program shows you the same.</span></div>
+		<p class="auto-style42">
+		
+		<iframe src="https://trinket.io/embed/python/f8e6af79f3?start=result" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+		&nbsp;</p>
+		<p class="auto-style42">
+		
+		<span class="auto-style35" lang="en-in">you'll get the below error:</span></p>
+		<p class="auto-style42">
+		
+		<span class="auto-style35" lang="en-in">if we use append or pop function 
+		on tuples:</span></p>
+		<p class="auto-style1">
+		
+		<span class="auto-style39" style="color: rgb(0, 0, 0); font-family: Merriweather, Times, Georgia, serif; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 204, 204); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;">
+		AttributeError: 'tuple' object has no attribute 'append' on line 8 in 
+		main.py</span></p>
+		<p class="auto-style1">
+		
+		<span class="auto-style39" style="color: rgb(0, 0, 0); font-family: Merriweather, Times, Georgia, serif; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 204, 204); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;">
+		AttributeError: 'tuple' object has no attribute '<span lang="en-in">pop</span>' 
+		on line 8 in main.py</span></p>
+		
+		<span lang="en-in">
+		<p class="auto-style48">
+		
+		benefits of tuples are :</p>
+		<p class="auto-style35">
+		
+		Tuples can be used to construct safer code since the data we don't want 
+		to modify is kept "write-protected" in an immutable tuple.</p>
+		<p class="auto-style35">
+		
+		Tuples can be used instead of lists since they take up less memory<span class="auto-style35">, 
+		which can be important when using large datasets. </span></p>
+		<p class="auto-style35">
+		
+		Operations using tuples are faster than operations involving lists. </p>
+		<p class="auto-style43">
+		
+		<strong>Indexing</strong></p>
+		<p class="auto-style35">
+		
+		We can access any element in the sequences using an index that starts at 
+		zero since the elements are ordered.</p>
+		<p class="auto-style35">
+		
+		<iframe src="https://trinket.io/embed/python/4483fd84be?start=result" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+		&nbsp;</p>
+		<p class="auto-style35">
+		
+		We're looking at the first element of seqdata with the first index (0). 
+		The second index ('V') of the first element ('MRVLLVALALLA') refers to 
+		the 6th element ('V').</p>
+		<p class="auto-style35">
+		
+		Slice notation can be used to choose a piece of a sequence. Slicing is 
+		the process of cutting food into thin slices.<br />
+		<br />
+		a colon separates two indexes (:). These indexes represent a location 
+		between the elements in the existing space. The word "Python" can be 
+		written as.</p>
+		<p class="auto-style35">
+		
+		&nbsp;</p>
+		<p class="auto-style35">
+		
+		<span class="auto-style50"><strong>Sets</strong></span> </p>
+		</span>
+		<p class="auto-style35">
+		
+		A set is a mathematical model for a collection of diverse things<span lang="en-in">.
+		</span></p>
+		<p class="auto-style35">
+		
+		<span lang="en-in">I</span>t contains elements or members, which can be 
+		any mathematical object: numbers, symbols, points in space, lines, other 
+		geometrical structures, variables, or even other sets.</p>
+		<p class="auto-style35">
+		
+		Membership testing, duplication elimination, and the application of 
+		mathematical operations such as intersections, unions, differences, and 
+		symmetrical differences are <span lang="en-in">some of the </span>
+		typical uses of sets.</p>
+		<p>
+		
+		<span lang="en-in" class="auto-style51">
+		It is also possible to create an empty set and then add the elements as 
+		needed:</span></p>
+		<p>
+		
+		&nbsp;</p>
+		<p>
+		
+		<iframe src="https://trinket.io/embed/python/795f151155?start=result" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+		&nbsp;</p>
+		<p class="auto-style35">
+		
+		<span lang="en-in">
+		As in list comprehension, we can also define a set using comprehension.</span></p>
+		<p class="auto-style35">
+		
+		&nbsp;</p>
+		<p class="auto-style35">
+		
+		<iframe src="https://trinket.io/embed/python/cae01b09f2?start=result" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+		&nbsp;</p>
+		<div class="auto-style35">
+			<span style="mso-spacerun: 'yes'; font-family: SFRM1000; color: rgb(35,31,32);">
+			Since a </span>
+			<span style="mso-spacerun: 'yes'; font-family: SFBX1000; color: rgb(35,31,32); font-weight: bold;">
+			set </span>
+			<span style="mso-spacerun: 'yes'; font-family: SFRM1000; color: rgb(35,31,32);">
+			does not accept repeated elements, there is no effect when you try 
+			to add an element that is already in the set: <br />
+			</span></div>
+		<p class="auto-style43">
+		
+		<span lang="en-in"><strong>Union</strong></span></p>
+		<p class="auto-style52">
+		
+		<img alt="Union" src="images/AunionB.png" style="width: 447px; height: 285px" /></p>
+		<p class="auto-style52">
+		
+		<span lang="en-in" class="auto-style35"><strong>Figure 10.1.</strong> 
+		<em>Union in python.</em></span></p>
+		<p class="auto-style52">
+		
+		&nbsp;</p>
+		<p class="auto-style35">
+		
+		<span lang="en-in">The operator union (as shown in above Figure) is the 
+		union of two (or more) sets, and its abbreviated form is |:</span></p>
+		<p class="auto-style35">
+		
+		&nbsp;</p>
+		<p class="auto-style35">
+		
+		<iframe src="https://trinket.io/embed/python/473b3299cb?start=result" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+		&nbsp;</p>
+		<p class="auto-style43">
+		
+		<span lang="en-in"><strong>Intersection</strong></span></p>
+		<p class="auto-style52">
+		
+		<img alt="Intersection" src="images/AintersectionB.png" style="width: 447px; height: 285px" /></p>
+		<p class="auto-style52">
+		
+		<span lang="en-in" class="auto-style35"><strong>Figure 10.2.</strong> 
+		<em>Intersection in python.</em></span></p>
+		<p class="auto-style52">
+		
+		&nbsp;</p>
+		<div class="auto-style35">
+			<span style="mso-spacerun: 'yes'; font-family: SFRM1000; color: rgb(35,31,32);">
+			To get the common elements in two sets (as shown in<span lang="en-in"> 
+			the above figure</span>), use the operator<span lang="en-in"> &amp; or</span>
+			</span>
+			<span style="mso-spacerun: 'yes'; font-family: SFBX1000; color: rgb(35,31,32); font-weight: bold;">
+			intersection()span lang="en-in">.</span></span></div>
+		<p class="auto-style43">
+		
+		<iframe src="https://trinket.io/embed/python/72cf50edef?start=result" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+		</p>
+		<p class="auto-style43">
+		
+		&nbsp;</p>
+		<p class="auto-style43">
+		
+		<span lang="en-in"><strong>Difference</strong></span></p>
+		<p class="auto-style52">
+		
+		<img alt="Difference" src="images/AdifferenceB.png" style="width: 447px; height: 285px" /></p>
+		<p class="auto-style52">
+		
+		<span lang="en-in" class="auto-style35"><strong>Figure 10.3.</strong> 
+		<em>Difference in python.</em></span></p>
+		<p class="auto-style52">
+		
+		&nbsp;</p>
+		<div>
+			<span class="auto-style35">
+			<span style="mso-spacerun: 'yes'; font-family: SFRM1000; color: rgb(35,31,32);">
+			A </span>
+			<span style="mso-spacerun: 'yes'; font-family: SFBX1000; color: rgb(35,31,32); font-weight: bold;">
+			difference </span>
+			<span style="mso-spacerun: 'yes'; font-family: SFRM1000; color: rgb(35,31,32);">
+			is the resulting set of elements that belongs to one set but not to 
+			the other (See </span><span lang="en-in">from the above figure</span><span style="mso-spacerun: 'yes'; font-family: SFRM1000; color: rgb(35,31,32);">). 
+			Its shorthand is </span>
+			<span lang="en-in">:-<br />
+			</span></span></div>
+		<p class="auto-style43">
+		
+		<iframe src="https://trinket.io/embed/python/860ba0bf1c?start=result" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+		&nbsp;</p>
+		<p class="auto-style43">
+		
+		<span lang="en-in"><strong>Symmetric difference</strong></span></p>
+		<p class="auto-style52">
+		
+		<img alt="Sym_difference" src="images/ASym_differenceB.png" style="width: 447px; height: 285px" /></p>
+		<p class="auto-style52">
+		
+		<span lang="en-in" class="auto-style35"><strong>Figure 10.4.</strong> 
+		<em>Symmetric difference in python.</em></span></p>
+		<p class="auto-style52">
+		
+		&nbsp;</p>
+		<p class="auto-style43">
+		
+		<span class="auto-style35">The parts that are not a part of the 
+		intersection are referred to as symmetric differences (see
+		<span lang="en-in">as mentioned in the above f</span>igure); 
+		the&nbsp;operator is symmetric difference, and it is abbreviated as ^<span lang="en-in">
+		</span></span>:</p>
+		<p class="auto-style43">
+		
+		<iframe src="https://trinket.io/embed/python/ff13f9e4ff?start=result" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+		&nbsp;</p>
+		<span lang="en-in">
+		<p class="auto-style44">
+		
+		<strong>---- Summary ----</strong></p>
+		<p class="auto-style29">
+		
+		As of now you know how tuples work.</p>
+		<ul>
+			<li>
+			<p class="auto-style29"><strong>Create a simple tuple.</strong></p>
+			</li>
+			<li>
+			<p class="auto-style29"><strong>Create empty tuples.</strong></p>
+			</li>
+			<li>
+			<p class="auto-style29"><strong>Tuple packing.</strong></p>
+			</li>
+			<li>
+			<p class="auto-style29"><strong>Adding values to Tuple.</strong></p>
+			</li>
+			<li>
+			<p class="auto-style29"><strong>Working with sets</strong></p>
+			</li>
+			<li>
+			<p class="auto-style29"><strong>Sets union,intersection</strong></p>
+			</li>
+			<li>
+			<p class="auto-style29"><strong>Sets difference..etcs</strong></p>
+			</li>
+		</ul>
+		</span>
+		<p class="auto-style42">
+		
+		<span lang="en-in"></p>
+
+	<!-- end of content column: put your content above this line -->
+	</div>
+	</div>
+
+	<div id="tswsidecol">
+	<div id="tswsideproper" class="auto-style33">
+		<p class="auto-style12">
+		<strong><span class="auto-style24">Content</strong>
+	</p>
+		<p class="auto-style6">
+		<a href="index.html">PythonPythonME</a></p>
+		<p class="auto-style6"><span lang="en-in">
+		<a href="Running%20Python.html">Running Python</a></span></p>
+		<p class="auto-style6"><span lang="en-in"><a href="Variables.html">
+		Variables</a></span></p>
+		<p class="auto-style6"><span lang="en-in">
+		<a href="Tuples%20and%20Sets.html">
+		Functions</a></span></p>
+		<p class="auto-style6"><span lang="en-in"><a href="Numbers.html">Numbers</a></span></p>
+		<p class="auto-style6"><span lang="en-in"><a href="Strings.html">Strings</a></span></p>
+		<p class="auto-style6"><span lang="en-in"><a href="Lists.html">Lists</a></span></p>
+		<p class="auto-style6"><span lang="en-in">
+		<a href="Control%20Structures.html">Control structures</a></span></p>
+		<p class="auto-style6">
+		
+		<span lang="en-in"><a href="Tuples%20and%20Sets.html">Dictionaries</a></span></p>
+		
+		<span lang="en-in">
+		<p class="auto-style6">
+		
+		<a href="Tuples%20and%20Sets.html">Tuples &amp; Sets</a></p>
+		<p class="auto-style6">
+		
+		<a href="File%20Handling.html">File Handling</a></p>
+		</span>
+		<p class="auto-style6"><span lang="en-in"><a href="Terms_1.html">Terms</a></span></p>
+
+	<!-- end of side column: put your navigation menu, etc, above this line -->
+	</div>
+	</div>
+	<div style="clear: both;" class="auto-style1"><br />
+		<span lang="en-in">
+		________________________________________________________________________________________________________________________________</span><br />
+		<img alt="Footer " height="64" src="images/star-line-divider-design-footer-modern-border-vector-23980591.png" width="1118" /><br />
+		<span lang="en-in">
+		________________________________________________________________________________________________________________________________</span><br />
+	</div>
+
+</div>
+
+<p class="auto-style2">Copyright
+<span class="auto-style4" style="color: rgb(0, 0, 0); font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;">
+© 2022-2023. Anoop Johny. </span>All Rights Reserved.</p>
+
+</body>
+
+</html>

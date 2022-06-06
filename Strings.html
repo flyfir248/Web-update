@@ -1,0 +1,279 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+
+<title>PythonPythonME</title>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<meta content="Python,Programming" name="keywords" />
+<meta content="Learn Python Programming" name="description" />
+<meta name="generator" content="thesitewizard.com's Layout Wizard 3.0.1" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="stylesheet" type="text/css" media="all" href="styles.css" />
+
+<style type="text/css">
+.auto-style1 {
+	text-align: center;
+}
+.auto-style2 {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	text-align: center;
+}
+.auto-style3 {
+	font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+	text-align: center;
+	font-size: x-large;
+}
+.auto-style6 {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	text-align: center;
+	font-size: large;
+}
+.auto-style4 {
+	font-family: "Times New Roman", Times, serif;
+	font-size: large;
+}
+.auto-style12 {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	text-align: center;
+	font-size: large;
+	color: #1829BB;
+}
+.auto-style24 {
+	font-size: xx-large;
+}
+.auto-style30 {
+	font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.auto-style31 {
+	font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+	text-align: center;
+}
+.auto-style32 {
+	border-style: solid;
+	border-width: 1px;
+	padding-top: 1px;
+	padding-bottom: 1px;
+}
+.auto-style33 {
+	border-width: 0px;
+}
+.auto-style35 {
+	font-family: "Times New Roman", Times, serif;
+}
+</style>
+
+</head>
+
+<body>
+
+<div id="tswcontainer">
+	<div id="tswheader">
+	<!-- start of header section: insert your logo, etc, here -->
+
+	<p class="auto-style1">
+	<a href="index.html">
+	<img alt="Logo" src="PythonPythonME.png" style="border-radius: 5px; width: 306px; height: 234px; background-color: #FFFFFF;" class="auto-style33" /></a></p>
+	<p class="auto-style3"><span lang="en-in"><strong>Strings</strong></span></p>
+
+	<!-- end of header section: insert your logo, etc, above this line -->
+	</div>
+
+	<div id="tswcontent">
+	<div id="tswcontproper">
+	<!-- start of content column: insert your content here -->
+
+		<p class="auto-style30">Python, in addition to numbers, can modify 
+		strings, that can be expressed in a variety of ways. They achieve the 
+		same output when enclosed in quote marks ('...') or double quotes 
+		("..."). \ symbol&nbsp;can also be used to separate quotes:</p>
+		<p class="auto-style30">&nbsp;</p>
+		<p class="auto-style30"><iframe src="https://trinket.io/embed/python3/4a7b37aab1?start=result&runMode=console" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+		&nbsp;</p>
+		<p class="auto-style30">The output string is enclosed in quotes in the 
+		interactive interpreter, and special characters are escaped with 
+		backslashes. </p>
+		<p class="auto-style30">While this may look different from the input at 
+		times (the enclosing quotes may change), the two strings are equivalent. 
+		If the string contains a single quote but no double quotes, it is 
+		enclosed in double quotes; otherwise, it is enclosed in single quotes. </p>
+		<p class="auto-style30">By removing the enclosing quotes and printing 
+		escaped and special characters, the print() function produces a more 
+		readable output:</p>
+		<p class="auto-style30">&nbsp;</p>
+		<p class="auto-style30"><iframe src="https://trinket.io/embed/python3/842aad1e6a?start=result&runMode=console" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+		&nbsp;</p>
+		<p class="auto-style30">If you don't want characters preceded by to be 
+		interpreted as special characters, add a r before the first quote:</p>
+		<p class="auto-style30">&nbsp;</p>
+		<p class="auto-style30"><iframe src="https://trinket.io/embed/python3/c71270fd5c?start=result&runMode=console" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+		&nbsp;</p>
+		<p class="auto-style30">String literals are allowed to span multiple 
+		lines. One method is to use triple quotation marks: """...""" or 
+		"'..."'.</p>
+		<p class="auto-style30">&nbsp;Ends of lines are instantly included with 
+		string, but this can be avoided by adding an at the end of the route. 
+		Consider the following example:</p>
+		<p class="auto-style30">&nbsp;</p>
+		<p class="auto-style30"><iframe src="https://trinket.io/embed/python3/f848e2fdb4?start=result&runMode=console" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+		&nbsp;</p>
+		<p class="auto-style30">
+		<span style="color: rgb(34, 34, 34); font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;">produces 
+		the following output (note that the initial newline is not included):</span></p>
+		<p class="auto-style30">Strings can be concatenated (joined together) 
+		using the + operator and then repeated with *:</p>
+		<p class="auto-style30">Strings can be concatenated (joined together) 
+		using the + operator and then repeated with *:</p>
+		<p class="auto-style30">&nbsp;</p>
+		<p class="auto-style30"><iframe src="https://trinket.io/embed/python3/9dc1bfe3e7?start=result&runMode=console" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+		&nbsp;</p>
+		<p class="auto-style30">When two or more string literals (those enclosed 
+		between quotes) are placed next to each other, they are automatically 
+		concatenated.</p>
+		<p class="auto-style30">&nbsp;</p>
+		<p class="auto-style30"><iframe src="https://trinket.io/embed/python3/ea9f94fe90?start=result&runMode=console" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+		&nbsp;</p>
+		<p class="auto-style30">This feature comes in handy when you need to 
+		break long strings<span lang="en-in">. However, this only works with two 
+		literals, not variables or expressions. Use ' +' when you are required 
+		to concatenate variables or a variable and a literal.</span></p>
+		<p class="auto-style30">&nbsp;</p>
+		<p class="auto-style30"><iframe src="https://trinket.io/embed/python3/bbf388e2fd?start=result&runMode=console" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+		&nbsp;</p>
+		<p class="auto-style30">Strings could be indexed (subscripted), with 
+		index 0 being the first character. There is no such thing as a character 
+		type; a character is simply a string of length one:</p>
+		<p class="auto-style30">&nbsp;</p>
+		<p class="auto-style30"><iframe src="https://trinket.io/embed/python3/0144755734?start=result&runMode=console" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+		&nbsp;</p>
+		<p class="auto-style30">Indices can also be negative numbers, counting 
+		from right to left:</p>
+		<p class="auto-style30">&nbsp;</p>
+		<p class="auto-style30"><iframe src="https://trinket.io/embed/python3/e9b12e54cd?start=result&runMode=console" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+		&nbsp;</p>
+		<p class="auto-style30">Because -0 is the same as 0, negative indices 
+		begin at -1.<span lang="en-in"> </span>Slicing is supported in addition 
+		to indexing. While indexing is being used to retrieve individual 
+		characters, sectioning is used to retrieve substrings:</p>
+		<p class="auto-style30">&nbsp;</p>
+		<p class="auto-style30"><iframe src="https://trinket.io/embed/python3/0d3d7e570e?start=result&runMode=console" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+		&nbsp;</p>
+		<p class="auto-style30">Take note of how the beginning is always 
+		included and the end is always excluded. This ensures that s[:i] + s[i:] 
+		always equals s:</p>
+		<p class="auto-style30">&nbsp;</p>
+		<p class="auto-style30"><iframe src="https://trinket.io/embed/python3/8b4afb27db?start=result&runMode=console" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+		&nbsp;</p>
+		<p class="auto-style30">An omitted first index defaults to zero, while 
+		an omitted second index defaults to the length of the string being 
+		sliced.</p>
+		<p class="auto-style30">&nbsp;</p>
+		<p class="auto-style30"><iframe src="https://trinket.io/embed/python3/cbf2257c76?start=result&runMode=console" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+		&nbsp;</p>
+		<p class="auto-style30">One way to remember how slices work is to 
+		imagine the indices as pointing between characters, with the first 
+		character's left edge numbered 0. Then, for example, the right edge of 
+		the last character of a string of n characters has index n:</p>
+		<p class="auto-style31">
+		<img alt="Text" src="images/Screenshot%202022-03-31%20161041.png" style="width: 282px; height: 118px" /></p>
+
+		<p class="auto-style1">
+		<span lang="en-in" class="auto-style35"><strong>Figure 6.1.</strong> <em>
+		String indexing in python.</em></span></p>
+		<p class="auto-style1">
+		&nbsp;</p>
+
+		<p class="auto-style30">The first row of numbers represents the position 
+		of the indices 0...6 in the string, while the second row represents the 
+		corresponding negative indices. All characters between the edges labeled 
+		I and j make up the slice from I to j.<br />
+		<br />
+		If both indices are all within bounds, the length of a slice for 
+		non-negative indices is the difference of the indices. For example, 
+		word[1:3] has a length of 2.<br />
+		<br />
+		An attempt to use an index which is too large will result in the 
+		following error:</p>
+		<p class="auto-style30">&nbsp;</p>
+		<p class="auto-style30"><iframe src="https://trinket.io/embed/python3/f6e2cb7936?start=result" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+		&nbsp;</p>
+		<p class="auto-style30">
+		<span style="color: rgb(34, 34, 34); font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;">
+		However, out of range slice indexes are handled gracefully when used for 
+		slicing:</span></p>
+		<p class="auto-style30">
+		&nbsp;</p>
+		<p class="auto-style30"><iframe src="https://trinket.io/embed/python3/ba09f47444?start=result&runMode=console" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+		&nbsp;</p>
+		<p class="auto-style30">Python strings are immutable and cannot be 
+		changed. As a result, assigning to an indexed position in the string 
+		yields an error:</p>
+		<p class="auto-style30">&nbsp;</p>
+		<p class="auto-style30"><iframe src="https://trinket.io/embed/python3/70860d6230?start=result&runMode=console" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+		&nbsp;</p>
+		<p class="auto-style30">If you require a different string, you should 
+		make one. </p>
+		<p class="auto-style30">&nbsp;</p>
+		<p class="auto-style30"><iframe src="https://trinket.io/embed/python3/d4bac5bae5?start=result&runMode=console" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+		&nbsp;</p>
+		<p class="auto-style30">The length of a string is returned by the 
+		built-in function len().</p>
+		<p class="auto-style30">&nbsp;</p>
+		<p class="auto-style30"><iframe src="https://trinket.io/embed/python3/5837676840?start=result&runMode=console" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+		&nbsp;</p>
+		<p class="auto-style30">&nbsp;</p>
+
+	<!-- end of content column: put your content above this line -->
+	</div>
+	</div>
+
+	<div id="tswsidecol">
+	<div id="tswsideproper" class="auto-style32">
+		<p class="auto-style12">
+		<strong><span class="auto-style24">Content</span></strong>
+	</p>
+		<p class="auto-style6">
+		<a href="index.html">PythonPythonME</a></p>
+		<p class="auto-style6"><span lang="en-in">
+		<a href="Running%20Python.html">Running Python</a></span></p>
+		<p class="auto-style6"><span lang="en-in"><a href="Variables.html">
+		Variables</a></span></p>
+		<p class="auto-style6"><span lang="en-in"><a href="Strings.html">
+		Functions</a></span></p>
+		<p class="auto-style6"><span lang="en-in"><a href="Numbers.html">Numbers</a></span></p>
+		<p class="auto-style6"><span lang="en-in"><a href="Strings.html">Strings</a></span></p>
+		<p class="auto-style6"><span lang="en-in"><a href="Lists.html">Lists</a></span></p>
+		<p class="auto-style6"><span lang="en-in">
+		<a href="Control%20Structures.html">Control structures</a></span></p>
+		<p class="auto-style6">
+		
+		<a href="Dictionaries.html"><span lang="en-in">Dictionaries</span>&nbsp;</a></p>
+		<p class="auto-style6">
+		
+		<span lang="en-in"><a href="Tuples%20and%20Sets.html">Tuples &amp; Sets</a></span></p>
+		<p class="auto-style6">
+		
+		<span lang="en-in"><a href="File%20Handling.html">File Handling</a></span></p>
+		<p class="auto-style6"><span lang="en-in"><a href="Terms_1.html">Terms</a></span></p>
+
+	<!-- end of side column: put your navigation menu, etc, above this line -->
+	</div>
+	</div>
+	<div style="clear: both;" class="auto-style1"><br />
+		<span lang="en-in">
+		________________________________________________________________________________________________________________________________</span><br />
+		<img alt="Footer " height="64" src="images/star-line-divider-design-footer-modern-border-vector-23980591.png" width="1118" /><br />
+		<span lang="en-in">
+		________________________________________________________________________________________________________________________________</span><br />
+	</div>
+
+</div>
+
+<p class="auto-style2">Copyright
+<span class="auto-style4" style="color: rgb(0, 0, 0); font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;">
+© 2022-2023. Anoop Johny. </span>All Rights Reserved.</p>
+
+</body>
+
+</html>
